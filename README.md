@@ -23,20 +23,17 @@ You need Java SDK version 6 or higher to build the project. For building the pro
 - Command line
 
 ### How to run this project 
-
-1. npm install 
-2. ionic cordova run android
-
-### Command Line
-
-Make sure you have JDK installed.
 ```
-> ionic cordova run android --livereload
+> npm install
+```
+
+```
+> ionic cordova run android
 ```
 
 ## Team
 
-Nurul Shazana binti Shuhaidi (B031610276)
-Syazaitul binti Mohammed Noor Razak (B031610259)
-Wan Nabilah Huda binti W Mohd Burhanuddin (B031610206)
-Nur Irdina binti Mohamed Diah (B031610182)
+1. Nurul Shazana binti Shuhaidi (B031610276)
+2. Syazaitul binti Mohammed Noor Razak (B031610259)
+3. Wan Nabilah Huda binti W Mohd Burhanuddin (B031610206)
+4. Nur Irdina binti Mohamed Diah (B031610182)
