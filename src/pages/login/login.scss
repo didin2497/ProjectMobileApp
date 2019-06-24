@@ -1,0 +1,79 @@
+page-login {
+
+    .logo{
+      height: 200px; 
+      width: 200px; 
+      background-color: transparent;
+      padding-bottom: no-pad;
+      padding-left: 40px
+      
+    }
+   
+    .bg{
+      background-image: url('../assets/ftmkbg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      height: 100%;
+      width: 100%;
+      z-index: -1;
+      opacity: 0.7
+    }
+
+    .login-content {
+        // background-image: url('../assets/ftmkbg.jpg');
+        // background-repeat: no-repeat;
+        // background-size: cover;
+        background-color: transparent;
+      
+      
+        .logo-row {
+          
+          padding-top: 90px;
+          //padding-bottom: 10px;
+          background-color: transparent;
+        }
+     
+        .login-box {
+          //background: #ffffff;
+          padding: 20px 20px 0px 20px;
+        //   margin-top: 10px;
+        }
+     
+        ion-row {
+           align-items: center;
+           text-align: center;
+         }
+     
+         ion-item {
+             border-radius: 30px !important;
+             padding-left: 10px !important;
+             //font-size: 0.9em;
+             margin-bottom: 10px;
+             //border: 1px solid #51CFB1;
+             border-bottom: 0px !important;
+             box-shadow: none !important;
+         }
+     
+         .signup-col {
+           margin: 0px 16px 0px 16px;
+           padding-bottom: 20px;
+         }
+     
+         .item-inner {
+           border-bottom-color: #ffffff !important;
+           box-shadow: none !important;
+         }
+     
+         .submit-btn {
+           //background: #51CFB1;
+          //  background: #488aff;
+           border-radius: 30px !important;
+          //  border: 1px solid #ffffff;
+         }
+     
+         
+      }
+
+      
+
+}

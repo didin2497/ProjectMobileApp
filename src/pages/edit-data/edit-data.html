@@ -1,0 +1,41 @@
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Bakery Management</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content padding>
+  <h2>Edit Data</h2>
+  <form (ngSubmit)="updateData()">
+    <ion-item>
+      <ion-label>Date</ion-label>
+      <ion-datetime displayFormat="MM/DD/YYYY" [(ngModel)]="data.date" name="date" required=""></ion-datetime>
+    </ion-item>
+    <ion-item>
+      <ion-label>Type of Pastry</ion-label>
+      <ion-select [(ngModel)]="data.type" name="type" required="">
+        <ion-option value="Bread">Bread</ion-option>
+        <ion-option value="Cakes">Cakes</ion-option>
+        <ion-option value="Cookies">Cookies</ion-option>
+      </ion-select>
+    </ion-item>
+    <ion-item>
+      <ion-label>Name</ion-label>
+      <ion-input type="text" placeholder="Name" [(ngModel)]="data.description" name="description" required="">
+      </ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Flavour</ion-label>
+      <ion-input type="text" placeholder="Flavour" [(ngModel)]="data.flavour" name="flavour" required="">
+      </ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-label>Price(RM)</ion-label>
+      <ion-input type="number" placeholder="Price " [(ngModel)]="data.amount" name="amount" required=""></ion-input>
+    </ion-item>
+    <ion-input type="hidden" [(ngModel)]="data.rowid" name="rowid"></ion-input>
+    <button ion-button type="submit" block>Update Data</button>
+  </form>
+</ion-content>
