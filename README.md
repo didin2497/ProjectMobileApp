@@ -22,6 +22,11 @@ You need Java SDK version 6 or higher to build the project. For building the pro
 - Visual Studio Code
 - Command line
 
+### How to run this project 
+
+1. npm install 
+2. ionic cordova run android
+
 ### Command Line
 
 Make sure you have JDK installed.
